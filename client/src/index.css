@@ -69,4 +69,19 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
+  border: 1px solid black;
+
+}
+
+.home-button, .home-button:visited, .home-button:hover, .home-button:active {
+  color: inherit;
+}
+
+.movie-link {
+  text-decoration: none;
+}
+
+.movie-link, .movie-link:visited, .movie-link:hover, .movie-link:active {
+  color: inherit;
 }
